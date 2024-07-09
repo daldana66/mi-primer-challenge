@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <img class="logo" src="./Logo.png" alt="Logo_alura">
+    </header>
+    <main>
+        <section id="left-section">
+            <div>
+                <p class="p__left" onclick="editText()">Ingrese el texto aquí que necesitas encriptar o desencriptar</p>
+            </div>
+        </section>
+        <section id="right-section">
+            
+            
+            <p class="p__right"></p>
+            <img class="muñeco" src="./Muñeco.png" alt="Muñeco_con_lupa">
+            <img class="frame" src="./Frame.png" alt="no encontrado">
+             
+            
+        </section>
+    </main>
+    <footer>
+        <p class="footer_p">&#9888;Solo letras minúsculas y sin acentos</p>
+        <div class="tamaño_botones">
+            <button class="tamaño-b1" type="button" onclick="encryptText()">Encriptar</button>
+            <button class="tamaño-b2" type="button" onclick="decryptText()">Desencriptar</button>
+            <button class="tamaño-b3" type="button" onclick="copyText()">Copiar</button> 
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
